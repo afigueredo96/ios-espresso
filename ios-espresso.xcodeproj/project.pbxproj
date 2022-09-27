@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0945E5BE7ED77CB99AA73D68 /* Pods_ios_espresso.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68BCD9555249C0334E6AD02 /* Pods_ios_espresso.framework */; };
+		FC7B008C28E0D23E00C7A20C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B008B28E0D23E00C7A20C /* AppDelegate.swift */; };
+		FC7B009028E0D23E00C7A20C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B008F28E0D23E00C7A20C /* ViewController.swift */; };
+		FC7B009328E0D23E00C7A20C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7B009128E0D23E00C7A20C /* Main.storyboard */; };
+		FC7B009528E0D24000C7A20C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7B009428E0D24000C7A20C /* Assets.xcassets */; };
+		FC7B009828E0D24000C7A20C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7B009628E0D24000C7A20C /* LaunchScreen.storyboard */; };
+		FC7B00A128E0D73500C7A20C /* EspressoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B00A028E0D73500C7A20C /* EspressoService.swift */; };
+		FC7B00A328E0EC4C00C7A20C /* EspressoServiceAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B00A228E0EC4C00C7A20C /* EspressoServiceAlamofire.swift */; };
+		FC7B00A628E0ECEF00C7A20C /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B00A528E0ECEF00C7A20C /* Articles.swift */; };
+		FC7B00B128E149EC00C7A20C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC7B00B028E149EB00C7A20C /* GoogleService-Info.plist */; };
+		FC7B00BA28E1D58C00C7A20C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B00B928E1D58C00C7A20C /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		233ABCC1C5752FE2B62545AC /* Pods-ios-espresso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-espresso.debug.xcconfig"; path = "Target Support Files/Pods-ios-espresso/Pods-ios-espresso.debug.xcconfig"; sourceTree = "<group>"; };
+		286020399C7E12D4458EB5E5 /* Pods-ios-espresso.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-espresso.release.xcconfig"; path = "Target Support Files/Pods-ios-espresso/Pods-ios-espresso.release.xcconfig"; sourceTree = "<group>"; };
+		C68BCD9555249C0334E6AD02 /* Pods_ios_espresso.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_espresso.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7B008828E0D23E00C7A20C /* ios-espresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-espresso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC7B008B28E0D23E00C7A20C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC7B008F28E0D23E00C7A20C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC7B009228E0D23E00C7A20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC7B009428E0D24000C7A20C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC7B009728E0D24000C7A20C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC7B009928E0D24000C7A20C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7B00A028E0D73500C7A20C /* EspressoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspressoService.swift; sourceTree = "<group>"; };
+		FC7B00A228E0EC4C00C7A20C /* EspressoServiceAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EspressoServiceAlamofire.swift; sourceTree = "<group>"; };
+		FC7B00A528E0ECEF00C7A20C /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		FC7B00B028E149EB00C7A20C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC7B00B928E1D58C00C7A20C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC7B008528E0D23E00C7A20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0945E5BE7ED77CB99AA73D68 /* Pods_ios_espresso.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		164B912C6C855CE636E4877F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68BCD9555249C0334E6AD02 /* Pods_ios_espresso.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF124534EBD45ECEEE025AF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				233ABCC1C5752FE2B62545AC /* Pods-ios-espresso.debug.xcconfig */,
+				286020399C7E12D4458EB5E5 /* Pods-ios-espresso.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC7B007F28E0D23E00C7A20C = {
+			isa = PBXGroup;
+			children = (
+				FC7B008A28E0D23E00C7A20C /* ios-espresso */,
+				FC7B008928E0D23E00C7A20C /* Products */,
+				EF124534EBD45ECEEE025AF9 /* Pods */,
+				164B912C6C855CE636E4877F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC7B008928E0D23E00C7A20C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B008828E0D23E00C7A20C /* ios-espresso.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC7B008A28E0D23E00C7A20C /* ios-espresso */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B00B828E1D57B00C7A20C /* Controllers */,
+				FC7B00B028E149EB00C7A20C /* GoogleService-Info.plist */,
+				FC7B00A428E0ECE500C7A20C /* Models */,
+				FC7B009F28E0D71000C7A20C /* Services */,
+				FC7B008B28E0D23E00C7A20C /* AppDelegate.swift */,
+				FC7B008F28E0D23E00C7A20C /* ViewController.swift */,
+				FC7B009128E0D23E00C7A20C /* Main.storyboard */,
+				FC7B009428E0D24000C7A20C /* Assets.xcassets */,
+				FC7B009628E0D24000C7A20C /* LaunchScreen.storyboard */,
+				FC7B009928E0D24000C7A20C /* Info.plist */,
+			);
+			path = "ios-espresso";
+			sourceTree = "<group>";
+		};
+		FC7B009F28E0D71000C7A20C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B00A028E0D73500C7A20C /* EspressoService.swift */,
+				FC7B00A228E0EC4C00C7A20C /* EspressoServiceAlamofire.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC7B00A428E0ECE500C7A20C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B00A528E0ECEF00C7A20C /* Articles.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC7B00B828E1D57B00C7A20C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC7B00B928E1D58C00C7A20C /* SecondViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC7B008728E0D23E00C7A20C /* ios-espresso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC7B009C28E0D24000C7A20C /* Build configuration list for PBXNativeTarget "ios-espresso" */;
+			buildPhases = (
+				747D71104E6E97BA04D9A366 /* [CP] Check Pods Manifest.lock */,
+				FC7B008428E0D23E00C7A20C /* Sources */,
+				FC7B008528E0D23E00C7A20C /* Frameworks */,
+				FC7B008628E0D23E00C7A20C /* Resources */,
+				31C42D32977285776AA44D22 /* [CP] Embed Pods Frameworks */,
+				D0C1CA11901CD3ECD5C5D181 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-espresso";
+			productName = "ios-espresso";
+			productReference = FC7B008828E0D23E00C7A20C /* ios-espresso.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC7B008028E0D23E00C7A20C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FC7B008728E0D23E00C7A20C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FC7B008328E0D23E00C7A20C /* Build configuration list for PBXProject "ios-espresso" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC7B007F28E0D23E00C7A20C;
+			productRefGroup = FC7B008928E0D23E00C7A20C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC7B008728E0D23E00C7A20C /* ios-espresso */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC7B008628E0D23E00C7A20C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7B009828E0D24000C7A20C /* LaunchScreen.storyboard in Resources */,
+				FC7B009528E0D24000C7A20C /* Assets.xcassets in Resources */,
+				FC7B009328E0D23E00C7A20C /* Main.storyboard in Resources */,
+				FC7B00B128E149EC00C7A20C /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31C42D32977285776AA44D22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-espresso/Pods-ios-espresso-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-espresso/Pods-ios-espresso-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-espresso/Pods-ios-espresso-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747D71104E6E97BA04D9A366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-espresso-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0C1CA11901CD3ECD5C5D181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-espresso/Pods-ios-espresso-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ios-espresso/Pods-ios-espresso-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-espresso/Pods-ios-espresso-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC7B008428E0D23E00C7A20C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC7B00BA28E1D58C00C7A20C /* SecondViewController.swift in Sources */,
+				FC7B009028E0D23E00C7A20C /* ViewController.swift in Sources */,
+				FC7B00A628E0ECEF00C7A20C /* Articles.swift in Sources */,
+				FC7B00A128E0D73500C7A20C /* EspressoService.swift in Sources */,
+				FC7B00A328E0EC4C00C7A20C /* EspressoServiceAlamofire.swift in Sources */,
+				FC7B008C28E0D23E00C7A20C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC7B009128E0D23E00C7A20C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7B009228E0D23E00C7A20C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC7B009628E0D24000C7A20C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC7B009728E0D24000C7A20C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC7B009A28E0D24000C7A20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC7B009B28E0D24000C7A20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC7B009D28E0D24000C7A20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233ABCC1C5752FE2B62545AC /* Pods-ios-espresso.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-espresso/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.afigueredo.ios-espresso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC7B009E28E0D24000C7A20C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286020399C7E12D4458EB5E5 /* Pods-ios-espresso.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ios-espresso/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "py.com.afigueredo.ios-espresso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC7B008328E0D23E00C7A20C /* Build configuration list for PBXProject "ios-espresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7B009A28E0D24000C7A20C /* Debug */,
+				FC7B009B28E0D24000C7A20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC7B009C28E0D24000C7A20C /* Build configuration list for PBXNativeTarget "ios-espresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC7B009D28E0D24000C7A20C /* Debug */,
+				FC7B009E28E0D24000C7A20C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC7B008028E0D23E00C7A20C /* Project object */;
+}

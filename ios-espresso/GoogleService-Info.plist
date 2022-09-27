@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>759541191344-f8b5gd5adtec0ddel5c0ikhdmno9hilc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.759541191344-f8b5gd5adtec0ddel5c0ikhdmno9hilc</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBBu6BR1E3_vfFpEokvDjiBmsLSU66DCjk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>759541191344</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>py.com.afigueredo.ios-espresso</string>
+	<key>PROJECT_ID</key>
+	<string>porteria-dta-test</string>
+	<key>STORAGE_BUCKET</key>
+	<string>porteria-dta-test.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:759541191344:ios:a1d37f8d126e41ce446175</string>
+	<key>DATABASE_URL</key>
+	<string>https://porteria-dta-test-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
