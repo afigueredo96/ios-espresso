@@ -87,7 +87,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func click(_ sender: Any) {
+    @IBAction func click(_ sender: UIButton) {
         if sender == button {
             
         }
